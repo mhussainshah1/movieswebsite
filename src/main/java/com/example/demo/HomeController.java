@@ -12,18 +12,10 @@ public class HomeController {
         return "index";
     }
 
-
-
     @RequestMapping("/registration")
     public String registration(){
         return "registration";
     }
-
-    @GetMapping("/intellij")
-    public String getIntellij(){
-        return "intellij";
-    }
-
 
     //test
     @RequestMapping("/index1") //or @GetMapping("/index")
