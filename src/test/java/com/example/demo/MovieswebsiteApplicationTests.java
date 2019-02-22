@@ -12,5 +12,4 @@ public class MovieswebsiteApplicationTests {
     @Test
     public void contextLoads() {
     }
-
 }
